@@ -1,0 +1,20 @@
+
+-- The two statements below are equivalent
+SELECT * FROM COUNTRIES.COUNTRIES;
+
+SELECT
+COUNTRY_ID,
+NAME,
+NATIONALITY,
+COUNTRY_CODE,
+ISO_ALPHA2,
+CAPITAL,
+POPULATION,
+AREA_KM2,
+REGION_ID,
+SUB_REGION_ID
+FROM
+COUNTRIES.COUNTRIES;
+
+-- In MySQL you can use the * character in combination with explicit column references
+SELECT *, COUNTRY_ID FROM COUNTRIES.COUNTRIES;

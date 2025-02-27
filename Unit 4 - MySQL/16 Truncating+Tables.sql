@@ -1,0 +1,1 @@
+truncate table temp_schema.table_1;
